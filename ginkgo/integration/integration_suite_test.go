@@ -2,8 +2,8 @@ package integration_test
 
 import (
 	"fmt"
-	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	. "github.com/paybyphone/ginkgo"
 	"os/exec"
 
 	"testing"
@@ -12,7 +12,7 @@ import (
 func TestIntegration(t *testing.T) {
 	RegisterFailHandler(Fail)
 
-	installGinkgoCommand := exec.Command("go", "install", "github.com/onsi/ginkgo/ginkgo")
+	installGinkgoCommand := exec.Command("go", "install", "github.com/paybyphone/ginkgo/ginkgo")
 	err := installGinkgoCommand.Run()
 	if err != nil {
 		fmt.Printf("Failed to compile Ginkgo\n\t%s", err.Error())

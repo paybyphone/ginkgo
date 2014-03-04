@@ -51,7 +51,7 @@ You'll need Golang v1.2+ (Ubuntu users: you probably have Golang v1.0 -- you'll 
 
 ```bash
 
-go get github.com/onsi/ginkgo/ginkgo  # installs the ginkgo CLI
+go get github.com/paybyphone/ginkgo/ginkgo  # installs the ginkgo CLI
 go get github.com/onsi/gomega         # fetches the matcher library
 
 cd path/to/package/you/want/to/test
@@ -67,7 +67,7 @@ ginkgo  # also runs your tests
 
 ## I'm new to Go: What are my testing options?
 
-Of course, I heartily recommend [Ginkgo](https://github.com/onsi/ginkgo) and [Gomega](https://github.com/onsi/gomega).  Both packages are seeing heavy, daily, production use on a number of projects and boast a mature and comprehensive feature-set.
+Of course, I heartily recommend [Ginkgo](https://github.com/paybyphone/ginkgo) and [Gomega](https://github.com/onsi/gomega).  Both packages are seeing heavy, daily, production use on a number of projects and boast a mature and comprehensive feature-set.
 
 With that said, it's great to know what your options are :)
 
@@ -88,7 +88,7 @@ You can also use Ginkgo's matcher library [Gomega](https://github.com/onsi/gomeg
 
 There are a handful of BDD-style testing frameworks written for Golang.  Here are a few:
 
-- [Ginkgo](https://github.com/onsi/ginkgo) ;)
+- [Ginkgo](https://github.com/paybyphone/ginkgo) ;)
 - [GoConvey](https://github.com/smartystreets/goconvey) 
 - [Goblin](https://github.com/franela/goblin)
 - [Mao](https://github.com/azer/mao)

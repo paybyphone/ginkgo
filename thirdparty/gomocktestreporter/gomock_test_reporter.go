@@ -7,7 +7,7 @@ package gomocktestreporter
 
 import (
 	"fmt"
-	"github.com/onsi/ginkgo"
+	"github.com/paybyphone/ginkgo"
 )
 
 type GomockTestReporter struct{}

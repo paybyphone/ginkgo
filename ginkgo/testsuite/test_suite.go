@@ -2,7 +2,7 @@ package testsuite
 
 import (
 	"crypto/md5"
-	"github.com/onsi/ginkgo/ginkgo/support/fsnotify"
+	"github.com/paybyphone/ginkgo/ginkgo/support/fsnotify"
 	"io/ioutil"
 	"log"
 	"os"

@@ -15,9 +15,9 @@ To disable streaming mode and, instead, have the test output blobbed onto screen
 package aggregator
 
 import (
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/stenographer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/paybyphone/ginkgo/config"
+	"github.com/paybyphone/ginkgo/stenographer"
+	"github.com/paybyphone/ginkgo/types"
 	"time"
 )
 

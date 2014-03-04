@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/onsi/ginkgo/ginkgo/convert"
+	"github.com/paybyphone/ginkgo/ginkgo/convert"
 	"os"
 )
 

@@ -1,8 +1,8 @@
 package tmp
 
 import (
-	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	. "github.com/paybyphone/ginkgo"
 
 	"testing"
 )

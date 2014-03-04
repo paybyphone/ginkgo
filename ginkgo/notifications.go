@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/paybyphone/ginkgo/ginkgo/testsuite"
 	"os"
 	"os/exec"
 )

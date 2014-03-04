@@ -1,9 +1,9 @@
 package testsuite_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/ginkgo/testsuite"
 	. "github.com/onsi/gomega"
+	. "github.com/paybyphone/ginkgo"
+	. "github.com/paybyphone/ginkgo/ginkgo/testsuite"
 	"io/ioutil"
 	"os"
 	"path/filepath"
@@ -44,10 +44,10 @@ var _ = Describe("TestSuite", func() {
 		writeFile("/proffessorplum", "proffessorplum_test.go", `import "testing"`)
 
 		//ginkgo tests in a nested directory
-		writeFile("/colonelmustard", "colonelmustard_test.go", `import "github.com/onsi/ginkgo"`)
+		writeFile("/colonelmustard", "colonelmustard_test.go", `import "github.com/paybyphone/ginkgo"`)
 
 		//ginkgo tests in a deeply nested directory
-		writeFile("/colonelmustard/library", "library_test.go", `import "github.com/onsi/ginkgo"`)
+		writeFile("/colonelmustard/library", "library_test.go", `import "github.com/paybyphone/ginkgo"`)
 	})
 
 	AfterEach(func() {
@@ -141,7 +141,7 @@ var _ = Describe("TestSuite", func() {
 		Context("when a go file is modified", func() {
 			BeforeEach(func() {
 				writeFile("/colonelmustard", "colonelmustard_test.go", `
-import "github.com/onsi/ginkgo"
+import "github.com/paybyphone/ginkgo"
 func() {}
 `)
 			})
@@ -168,7 +168,7 @@ func() {}
 
 		Context("when events are emitted but there are no actual changes", func() {
 			BeforeEach(func() {
-				writeFile("/colonelmustard", "colonelmustard_test.go", `import "github.com/onsi/ginkgo"`)
+				writeFile("/colonelmustard", "colonelmustard_test.go", `import "github.com/paybyphone/ginkgo"`)
 			})
 
 			It("should send nothing down the channel", func() {

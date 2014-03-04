@@ -2,7 +2,7 @@ package ginkgo
 
 import (
 	"fmt"
-	"github.com/onsi/ginkgo/types"
+	"github.com/paybyphone/ginkgo/types"
 	"reflect"
 	"time"
 )

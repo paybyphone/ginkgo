@@ -5,7 +5,7 @@ The Ginkgo CLI is fully documented [here](http://onsi.github.io/ginkgo/#the_gink
 
 To install:
 
-	go install github.com/onsi/ginkgo/ginkgo
+	go install github.com/paybyphone/ginkgo/ginkgo
 
 To run tests:
 
@@ -78,8 +78,8 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/ginkgo/testsuite"
+	"github.com/paybyphone/ginkgo/config"
+	"github.com/paybyphone/ginkgo/ginkgo/testsuite"
 	"os"
 	"os/signal"
 	"runtime"

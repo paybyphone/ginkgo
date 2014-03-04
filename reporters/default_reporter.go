@@ -8,9 +8,9 @@ These are documented [here](http://onsi.github.io/ginkgo/#running_tests)
 package reporters
 
 import (
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/stenographer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/paybyphone/ginkgo/config"
+	"github.com/paybyphone/ginkgo/stenographer"
+	"github.com/paybyphone/ginkgo/types"
 )
 
 type DefaultReporter struct {

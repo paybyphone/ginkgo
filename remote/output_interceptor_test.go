@@ -2,9 +2,9 @@ package remote_test
 
 import (
 	"fmt"
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/remote"
 	. "github.com/onsi/gomega"
+	. "github.com/paybyphone/ginkgo"
+	. "github.com/paybyphone/ginkgo/remote"
 	"os"
 )
 

@@ -1,7 +1,7 @@
 package tmp_test
 
 import (
-	. "github.com/onsi/ginkgo"
+	. "github.com/paybyphone/ginkgo"
 )
 
 var _ = Describe("Testing with Ginkgo", func() {

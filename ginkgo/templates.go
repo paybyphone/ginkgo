@@ -11,7 +11,7 @@ import (
 var bootstrapText = `package {{.Package}}_test
 
 import (
-	. "github.com/onsi/ginkgo"
+	. "github.com/paybyphone/ginkgo"
 	. "github.com/onsi/gomega"
 
 	"testing"
@@ -27,7 +27,7 @@ var specText = `package {{.Package}}_test
 
 import (
 	. "{{.PackageImportPath}}"
-	. "github.com/onsi/ginkgo"
+	. "github.com/paybyphone/ginkgo"
 	. "github.com/onsi/gomega"
 )
 

@@ -5,18 +5,18 @@ The godoc documentation describes Ginkgo's API.  More comprehensive documentatio
 
 Ginkgo's preferred matcher library is [Gomega](http://github.com/onsi/gomega)
 
-Ginkgo on Github: http://github.com/onsi/ginkgo
+Ginkgo on Github: http://github.com/paybyphone/ginkgo
 
 Ginkgo is MIT-Licensed
 */
 package ginkgo
 
 import (
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/remote"
-	"github.com/onsi/ginkgo/reporters"
-	"github.com/onsi/ginkgo/stenographer"
-	"github.com/onsi/ginkgo/types"
+	"github.com/paybyphone/ginkgo/config"
+	"github.com/paybyphone/ginkgo/remote"
+	"github.com/paybyphone/ginkgo/reporters"
+	"github.com/paybyphone/ginkgo/stenographer"
+	"github.com/paybyphone/ginkgo/types"
 	"io"
 	"net/http"
 	"os"

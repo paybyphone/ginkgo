@@ -1,9 +1,9 @@
 package types_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/ginkgo/types"
 	. "github.com/onsi/gomega"
+	. "github.com/paybyphone/ginkgo"
+	. "github.com/paybyphone/ginkgo/types"
 )
 
 var _ = Describe("GuidGenerator", func() {

@@ -1,12 +1,12 @@
 package reporters_test
 
 import (
-	. "github.com/onsi/ginkgo"
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/reporters"
-	st "github.com/onsi/ginkgo/stenographer"
-	"github.com/onsi/ginkgo/types"
 	. "github.com/onsi/gomega"
+	. "github.com/paybyphone/ginkgo"
+	"github.com/paybyphone/ginkgo/config"
+	"github.com/paybyphone/ginkgo/reporters"
+	st "github.com/paybyphone/ginkgo/stenographer"
+	"github.com/paybyphone/ginkgo/types"
 	"time"
 )
 

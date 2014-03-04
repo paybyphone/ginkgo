@@ -10,8 +10,8 @@ package reporters
 
 import (
 	"fmt"
-	"github.com/onsi/ginkgo/config"
-	"github.com/onsi/ginkgo/types"
+	"github.com/paybyphone/ginkgo/config"
+	"github.com/paybyphone/ginkgo/types"
 	"io"
 	"strings"
 )

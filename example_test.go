@@ -2,8 +2,8 @@ package ginkgo
 
 import (
 	"fmt"
-	"github.com/onsi/ginkgo/types"
 	. "github.com/onsi/gomega"
+	"github.com/paybyphone/ginkgo/types"
 	"time"
 )
 

@@ -1,7 +1,7 @@
 package stenographer
 
 import (
-	"github.com/onsi/ginkgo/types"
+	"github.com/paybyphone/ginkgo/types"
 )
 
 func NewFakeStenographerCall(method string, args ...interface{}) FakeStenographerCall {
